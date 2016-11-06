@@ -14,7 +14,7 @@ class CommentBox extends Component {
 	onHandleChange(event) {
 
 		this.setState({comment: event.target.value});
-		
+
 	}
 
 	onHandleSubmit(event) {

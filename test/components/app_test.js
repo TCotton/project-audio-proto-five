@@ -10,6 +10,7 @@ describe('App component', () => {
 
 		// create an instance of App
 		component = renderComponent(App);
+
 	});
 
 	// Use 'it' to test a single attribute of a target
@@ -17,6 +18,14 @@ describe('App component', () => {
 
 		// Use expect to make an assertion about a target
 		expect(component.find('.comment-box')).to.exist;
+
+	});
+
+
+	it(' shows a comment list', () => {
+
+		// Use expect to make an assertion about a target
+		expect(component.find('.comment-list')).to.exist;
 
 	});
 
